@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "57263e96-ea17-44a0-80a7-db10e028a657",
+		"name": "Task API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39350263"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/task/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/task/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"task",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'http://localhost:8080/api/task/1' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/task/1",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"taskId\": 0,\r\n  \"taskOwner\": \"string\",\r\n  \"taskName\": \"string\",\r\n  \"description\": \"string\",\r\n  \"priority\": \"string\",\r\n  \"status\": \"string\",\r\n  \"startDate\": \"2024-12-16T13:06:13.076Z\",\r\n  \"dueDate\": \"2024-12-16T13:06:13.076Z\",\r\n  \"reminder\": \"2024-12-16T13:06:13.076Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/task/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"task",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'PUT' \\\r\n  'http://localhost:8080/api/task/1' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"taskId\": 0,\r\n  \"taskOwner\": \"string\",\r\n  \"taskName\": \"string\",\r\n  \"description\": \"string\",\r\n  \"priority\": \"string\",\r\n  \"status\": \"string\",\r\n  \"startDate\": \"2024-12-16T13:06:13.076Z\",\r\n  \"dueDate\": \"2024-12-16T13:06:13.076Z\",\r\n  \"reminder\": \"2024-12-16T13:06:13.076Z\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/task/1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/task/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"task",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'DELETE' \\\r\n  'http://localhost:8080/api/task/1' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/task",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/task",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"task"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'http://localhost:8080/api/task' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/task",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"taskId\": 0,\r\n  \"taskOwner\": \"string\",\r\n  \"taskName\": \"string\",\r\n  \"description\": \"string\",\r\n  \"priority\": \"string\",\r\n  \"status\": \"string\",\r\n  \"startDate\": \"2024-12-16T13:07:52.191Z\",\r\n  \"dueDate\": \"2024-12-16T13:07:52.191Z\",\r\n  \"reminder\": \"2024-12-16T13:07:52.191Z\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/task",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"task"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\r\n  'http://localhost:8080/api/task' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"taskId\": 0,\r\n  \"taskOwner\": \"string\",\r\n  \"taskName\": \"string\",\r\n  \"description\": \"string\",\r\n  \"priority\": \"string\",\r\n  \"status\": \"string\",\r\n  \"startDate\": \"2024-12-16T13:07:52.191Z\",\r\n  \"dueDate\": \"2024-12-16T13:07:52.191Z\",\r\n  \"reminder\": \"2024-12-16T13:07:52.191Z\"\r\n}'"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "e7301106-7a40-4c09-9d6a-eb96375114cb",
+		"name": "Onoarding API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39350263"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/onboarding",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"onboardingId\": 0,\r\n  \"employeeId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n  \"startDate\": \"string\",\r\n  \"status\": \"string\",\r\n  \"mentor\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n  \"tasks\": [\r\n    {\r\n      \"taskId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n      \"description\": \"string\",\r\n      \"dueDate\": \"string\",\r\n      \"status\": \"string\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/onboarding",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"onboarding"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\r\n  'http://localhost:8080/api/onboarding' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"onboardingId\": 0,\r\n  \"employeeId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n  \"startDate\": \"string\",\r\n  \"status\": \"string\",\r\n  \"mentor\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n  \"tasks\": [\r\n    {\r\n      \"taskId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n      \"description\": \"string\",\r\n      \"dueDate\": \"string\",\r\n      \"status\": \"string\"\r\n    }\r\n  ]\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/onboarding/getAllOnboardedUsers",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/onboarding/getAllOnboardedUsers",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"onboarding",
+						"getAllOnboardedUsers"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'http://localhost:8080/api/onboarding/getAllOnboardedUsers' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/onboarding/1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/onboarding/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"onboarding",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'DELETE' \\\r\n  'http://localhost:8080/api/onboarding/1' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/onboarding/2",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"onboardingId\": 0,\r\n  \"employeeId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n  \"startDate\": \"string\",\r\n  \"status\": \"string\",\r\n  \"mentor\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n  \"tasks\": [\r\n    {\r\n      \"taskId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n      \"description\": \"string\",\r\n      \"dueDate\": \"string\",\r\n      \"status\": \"string\"\r\n    }\r\n  ]\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/onboarding/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"onboarding",
+						"2"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'PUT' \\\r\n  'http://localhost:8080/api/onboarding/2' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"onboardingId\": 0,\r\n  \"employeeId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n  \"startDate\": \"string\",\r\n  \"status\": \"string\",\r\n  \"mentor\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n  \"tasks\": [\r\n    {\r\n      \"taskId\": \"3fa85f64-5717-4562-b3fc-2c963f66afa6\",\r\n      \"description\": \"string\",\r\n      \"dueDate\": \"string\",\r\n      \"status\": \"string\"\r\n    }\r\n  ]\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/onboarding/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/onboarding/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"onboarding",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'http://localhost:8080/api/onboarding/1' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		}
+	]
+}

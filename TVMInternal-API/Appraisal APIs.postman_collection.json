@@ -1,0 +1,199 @@
+{
+	"info": {
+		"_postman_id": "371649cc-6801-441e-9024-acc1aa476f03",
+		"name": "Appraisal APIs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39350263"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/appraisals/getAllAppraisals",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Dhurai\",\r\n    \"lastName\": \"Swami\",\r\n    \"dob\": \"2003-10-21\",\r\n    \"position\": \"Option-1\",\r\n    \"gender\": \"MALE\",\r\n    \"employeeReference\": \"Mukesh\",\r\n    \"mobileNumber\": 9944285774,\r\n    \"homeNumber\": 54565456546,\r\n    \"officeNumber\": 5654564545,\r\n    \"email\": \"murali733911@gmail.com\",\r\n    \"presentAddress\": \"437, Muked Ejfebfd\",\r\n    \"city\": \"Cuddalore\",\r\n    \"district\": \"Tamilnadu\",\r\n    \"state\": \"Tamilnadu\",\r\n    \"country\": \"India\",\r\n    \"locality\": \"Chennai\",\r\n    \"pincode\": 607101,\r\n    \"passport\": \"false\",\r\n    \"landmark\": \"Near TVM Office\",\r\n    \"visa\": \"None\",\r\n    \"maritalStatus\": \"SINGLE\",\r\n    \"tname\": \"Fhkdvb\",\r\n    \"trelationship\": \"Option-2\",\r\n    \"tage\": 43,\r\n    \"too\": \"Kefhdb Vk\",\r\n    \"language\": \"English\",\r\n    \"canSpeak\": false,\r\n    \"canRead\": false,\r\n    \"canWrite\": false\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/appraisals/getAllAppraisals",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"appraisals",
+						"getAllAppraisals"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/appraisals/getAllAppraisals",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Dhurai\",\r\n    \"lastName\": \"Swami\",\r\n    \"dob\": \"2003-10-21\",\r\n    \"position\": \"Option-1\",\r\n    \"gender\": \"MALE\",\r\n    \"employeeReference\": \"Mukesh\",\r\n    \"mobileNumber\": 9944285774,\r\n    \"homeNumber\": 54565456546,\r\n    \"officeNumber\": 5654564545,\r\n    \"email\": \"murali733911@gmail.com\",\r\n    \"presentAddress\": \"437, Muked Ejfebfd\",\r\n    \"city\": \"Cuddalore\",\r\n    \"district\": \"Tamilnadu\",\r\n    \"state\": \"Tamilnadu\",\r\n    \"country\": \"India\",\r\n    \"locality\": \"Chennai\",\r\n    \"pincode\": 607101,\r\n    \"passport\": \"false\",\r\n    \"landmark\": \"Near TVM Office\",\r\n    \"visa\": \"None\",\r\n    \"maritalStatus\": \"SINGLE\",\r\n    \"tname\": \"Fhkdvb\",\r\n    \"trelationship\": \"Option-2\",\r\n    \"tage\": 43,\r\n    \"too\": \"Kefhdb Vk\",\r\n    \"language\": \"English\",\r\n    \"canSpeak\": false,\r\n    \"canRead\": false,\r\n    \"canWrite\": false\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/appraisals/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"appraisals",
+						"1"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/appraisals/getAllAppraisals",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Dhurai\",\r\n    \"lastName\": \"Swami\",\r\n    \"dob\": \"2003-10-21\",\r\n    \"position\": \"Option-1\",\r\n    \"gender\": \"MALE\",\r\n    \"employeeReference\": \"Mukesh\",\r\n    \"mobileNumber\": 9944285774,\r\n    \"homeNumber\": 54565456546,\r\n    \"officeNumber\": 5654564545,\r\n    \"email\": \"murali733911@gmail.com\",\r\n    \"presentAddress\": \"437, Muked Ejfebfd\",\r\n    \"city\": \"Cuddalore\",\r\n    \"district\": \"Tamilnadu\",\r\n    \"state\": \"Tamilnadu\",\r\n    \"country\": \"India\",\r\n    \"locality\": \"Chennai\",\r\n    \"pincode\": 607101,\r\n    \"passport\": \"false\",\r\n    \"landmark\": \"Near TVM Office\",\r\n    \"visa\": \"None\",\r\n    \"maritalStatus\": \"SINGLE\",\r\n    \"tname\": \"Fhkdvb\",\r\n    \"trelationship\": \"Option-2\",\r\n    \"tage\": 43,\r\n    \"too\": \"Kefhdb Vk\",\r\n    \"language\": \"English\",\r\n    \"canSpeak\": false,\r\n    \"canRead\": false,\r\n    \"canWrite\": false\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/appraisals/1/self-asses",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"appraisals",
+						"1",
+						"self-asses"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/appraisals/getAllAppraisals",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Dhurai\",\r\n    \"lastName\": \"Swami\",\r\n    \"dob\": \"2003-10-21\",\r\n    \"position\": \"Option-1\",\r\n    \"gender\": \"MALE\",\r\n    \"employeeReference\": \"Mukesh\",\r\n    \"mobileNumber\": 9944285774,\r\n    \"homeNumber\": 54565456546,\r\n    \"officeNumber\": 5654564545,\r\n    \"email\": \"murali733911@gmail.com\",\r\n    \"presentAddress\": \"437, Muked Ejfebfd\",\r\n    \"city\": \"Cuddalore\",\r\n    \"district\": \"Tamilnadu\",\r\n    \"state\": \"Tamilnadu\",\r\n    \"country\": \"India\",\r\n    \"locality\": \"Chennai\",\r\n    \"pincode\": 607101,\r\n    \"passport\": \"false\",\r\n    \"landmark\": \"Near TVM Office\",\r\n    \"visa\": \"None\",\r\n    \"maritalStatus\": \"SINGLE\",\r\n    \"tname\": \"Fhkdvb\",\r\n    \"trelationship\": \"Option-2\",\r\n    \"tage\": 43,\r\n    \"too\": \"Kefhdb Vk\",\r\n    \"language\": \"English\",\r\n    \"canSpeak\": false,\r\n    \"canRead\": false,\r\n    \"canWrite\": false\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/appraisals",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"appraisals"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/appraisals/getAllAppraisals",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Dhurai\",\r\n    \"lastName\": \"Swami\",\r\n    \"dob\": \"2003-10-21\",\r\n    \"position\": \"Option-1\",\r\n    \"gender\": \"MALE\",\r\n    \"employeeReference\": \"Mukesh\",\r\n    \"mobileNumber\": 9944285774,\r\n    \"homeNumber\": 54565456546,\r\n    \"officeNumber\": 5654564545,\r\n    \"email\": \"murali733911@gmail.com\",\r\n    \"presentAddress\": \"437, Muked Ejfebfd\",\r\n    \"city\": \"Cuddalore\",\r\n    \"district\": \"Tamilnadu\",\r\n    \"state\": \"Tamilnadu\",\r\n    \"country\": \"India\",\r\n    \"locality\": \"Chennai\",\r\n    \"pincode\": 607101,\r\n    \"passport\": \"false\",\r\n    \"landmark\": \"Near TVM Office\",\r\n    \"visa\": \"None\",\r\n    \"maritalStatus\": \"SINGLE\",\r\n    \"tname\": \"Fhkdvb\",\r\n    \"trelationship\": \"Option-2\",\r\n    \"tage\": 43,\r\n    \"too\": \"Kefhdb Vk\",\r\n    \"language\": \"English\",\r\n    \"canSpeak\": false,\r\n    \"canRead\": false,\r\n    \"canWrite\": false\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/appraisals/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"appraisals",
+						"10"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/appraisals/getAllAppraisals",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"firstName\": \"Dhurai\",\r\n    \"lastName\": \"Swami\",\r\n    \"dob\": \"2003-10-21\",\r\n    \"position\": \"Option-1\",\r\n    \"gender\": \"MALE\",\r\n    \"employeeReference\": \"Mukesh\",\r\n    \"mobileNumber\": 9944285774,\r\n    \"homeNumber\": 54565456546,\r\n    \"officeNumber\": 5654564545,\r\n    \"email\": \"murali733911@gmail.com\",\r\n    \"presentAddress\": \"437, Muked Ejfebfd\",\r\n    \"city\": \"Cuddalore\",\r\n    \"district\": \"Tamilnadu\",\r\n    \"state\": \"Tamilnadu\",\r\n    \"country\": \"India\",\r\n    \"locality\": \"Chennai\",\r\n    \"pincode\": 607101,\r\n    \"passport\": \"false\",\r\n    \"landmark\": \"Near TVM Office\",\r\n    \"visa\": \"None\",\r\n    \"maritalStatus\": \"SINGLE\",\r\n    \"tname\": \"Fhkdvb\",\r\n    \"trelationship\": \"Option-2\",\r\n    \"tage\": 43,\r\n    \"too\": \"Kefhdb Vk\",\r\n    \"language\": \"English\",\r\n    \"canSpeak\": false,\r\n    \"canRead\": false,\r\n    \"canWrite\": false\r\n  }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/appraisals/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"appraisals",
+						"10"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

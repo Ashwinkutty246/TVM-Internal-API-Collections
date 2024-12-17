@@ -1,0 +1,170 @@
+{
+	"info": {
+		"_postman_id": "91e16970-9385-485f-a76d-1650a2a24f7f",
+		"name": "Job API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39350263"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/jobs/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"projectId\": 0,\r\n  \"job\": \"string\",\r\n  \"description\": \"string\",\r\n  \"startTime\": \"2024-12-16T13:41:58.698Z\",\r\n  \"endTime\": \"2024-12-16T13:41:58.698Z\",\r\n  \"user\": \"string\",\r\n  \"status\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/jobs/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"jobs",
+						"add"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\r\n  'http://localhost:8080/api/jobs/add' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"projectId\": 0,\r\n  \"job\": \"string\",\r\n  \"description\": \"string\",\r\n  \"startTime\": \"2024-12-16T13:41:58.698Z\",\r\n  \"endTime\": \"2024-12-16T13:41:58.698Z\",\r\n  \"user\": \"string\",\r\n  \"status\": \"string\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/jobs",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/jobs",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"jobs"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'http://localhost:8080/api/jobs' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/jobs/1",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"projectId\": 0,\r\n  \"job\": \"string\",\r\n  \"description\": \"string\",\r\n  \"startTime\": \"2024-12-16T13:42:56.018Z\",\r\n  \"endTime\": \"2024-12-16T13:42:56.018Z\",\r\n  \"user\": \"string\",\r\n  \"status\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/jobs/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"jobs",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'PUT' \\\r\n  'http://localhost:8080/api/jobs/1' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"projectId\": 0,\r\n  \"job\": \"string\",\r\n  \"description\": \"string\",\r\n  \"startTime\": \"2024-12-16T13:42:56.018Z\",\r\n  \"endTime\": \"2024-12-16T13:42:56.018Z\",\r\n  \"user\": \"string\",\r\n  \"status\": \"string\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/jobs/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/jobs/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"jobs",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'http://localhost:8080/api/jobs/1' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/jobs/1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/jobs/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"jobs",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'DELETE' \\\r\n  'http://localhost:8080/api/jobs/1' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		}
+	]
+}

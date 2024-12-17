@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "7e697aaf-ef20-4618-85d2-7be860db73b6",
+		"name": "Profile API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39350263"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/profile/12",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/profile/12",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"profile",
+						"12"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'http://localhost:8080/api/profile/12' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/profile/1",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"firstName\": \"string\",\r\n  \"lastName\": \"string\",\r\n  \"dob\": \"2024-12-16T13:28:40.394Z\",\r\n  \"position\": \"string\",\r\n  \"gender\": \"MALE\",\r\n  \"employeeReference\": \"string\",\r\n  \"mobileNumber\": 0,\r\n  \"homeNumber\": 0,\r\n  \"officeNumber\": 0,\r\n  \"email\": \"string\",\r\n  \"presentAddress\": \"string\",\r\n  \"city\": \"string\",\r\n  \"district\": \"string\",\r\n  \"state\": \"string\",\r\n  \"country\": \"string\",\r\n  \"locality\": \"string\",\r\n  \"pincode\": 0,\r\n  \"passport\": \"string\",\r\n  \"landmark\": \"string\",\r\n  \"visa\": \"string\",\r\n  \"maritalStatus\": \"SINGLE\",\r\n  \"tname\": \"string\",\r\n  \"trelationship\": \"string\",\r\n  \"tage\": 0,\r\n  \"too\": \"string\",\r\n  \"language\": \"string\",\r\n  \"canSpeak\": true,\r\n  \"canRead\": true,\r\n  \"canWrite\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/profile/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"profile",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'PUT' \\\r\n  'http://localhost:8080/api/profile/1' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"id\": 0,\r\n  \"firstName\": \"string\",\r\n  \"lastName\": \"string\",\r\n  \"dob\": \"2024-12-16T13:28:40.394Z\",\r\n  \"position\": \"string\",\r\n  \"gender\": \"MALE\",\r\n  \"employeeReference\": \"string\",\r\n  \"mobileNumber\": 0,\r\n  \"homeNumber\": 0,\r\n  \"officeNumber\": 0,\r\n  \"email\": \"string\",\r\n  \"presentAddress\": \"string\",\r\n  \"city\": \"string\",\r\n  \"district\": \"string\",\r\n  \"state\": \"string\",\r\n  \"country\": \"string\",\r\n  \"locality\": \"string\",\r\n  \"pincode\": 0,\r\n  \"passport\": \"string\",\r\n  \"landmark\": \"string\",\r\n  \"visa\": \"string\",\r\n  \"maritalStatus\": \"SINGLE\",\r\n  \"tname\": \"string\",\r\n  \"trelationship\": \"string\",\r\n  \"tage\": 0,\r\n  \"too\": \"string\",\r\n  \"language\": \"string\",\r\n  \"canSpeak\": true,\r\n  \"canRead\": true,\r\n  \"canWrite\": true\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/profile/1",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/profile/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"profile",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'DELETE' \\\r\n  'http://localhost:8080/api/profile/1' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/profile",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"profile"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'http://localhost:8080/api/profile' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/profile",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"firstName\": \"string\",\r\n  \"lastName\": \"string\",\r\n  \"dob\": \"2024-12-16T13:30:09.996Z\",\r\n  \"position\": \"string\",\r\n  \"gender\": \"MALE\",\r\n  \"employeeReference\": \"string\",\r\n  \"mobileNumber\": 0,\r\n  \"homeNumber\": 0,\r\n  \"officeNumber\": 0,\r\n  \"email\": \"string\",\r\n  \"presentAddress\": \"string\",\r\n  \"city\": \"string\",\r\n  \"district\": \"string\",\r\n  \"state\": \"string\",\r\n  \"country\": \"string\",\r\n  \"locality\": \"string\",\r\n  \"pincode\": 0,\r\n  \"passport\": \"string\",\r\n  \"landmark\": \"string\",\r\n  \"visa\": \"string\",\r\n  \"maritalStatus\": \"SINGLE\",\r\n  \"tname\": \"string\",\r\n  \"trelationship\": \"string\",\r\n  \"tage\": 0,\r\n  \"too\": \"string\",\r\n  \"language\": \"string\",\r\n  \"canSpeak\": true,\r\n  \"canRead\": true,\r\n  \"canWrite\": true\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/profile",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"profile"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\r\n  'http://localhost:8080/api/profile' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"id\": 0,\r\n  \"firstName\": \"string\",\r\n  \"lastName\": \"string\",\r\n  \"dob\": \"2024-12-16T13:30:09.996Z\",\r\n  \"position\": \"string\",\r\n  \"gender\": \"MALE\",\r\n  \"employeeReference\": \"string\",\r\n  \"mobileNumber\": 0,\r\n  \"homeNumber\": 0,\r\n  \"officeNumber\": 0,\r\n  \"email\": \"string\",\r\n  \"presentAddress\": \"string\",\r\n  \"city\": \"string\",\r\n  \"district\": \"string\",\r\n  \"state\": \"string\",\r\n  \"country\": \"string\",\r\n  \"locality\": \"string\",\r\n  \"pincode\": 0,\r\n  \"passport\": \"string\",\r\n  \"landmark\": \"string\",\r\n  \"visa\": \"string\",\r\n  \"maritalStatus\": \"SINGLE\",\r\n  \"tname\": \"string\",\r\n  \"trelationship\": \"string\",\r\n  \"tage\": 0,\r\n  \"too\": \"string\",\r\n  \"language\": \"string\",\r\n  \"canSpeak\": true,\r\n  \"canRead\": true,\r\n  \"canWrite\": true\r\n}'"
+			},
+			"response": []
+		}
+	]
+}

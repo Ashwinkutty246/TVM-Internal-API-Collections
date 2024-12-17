@@ -1,0 +1,196 @@
+{
+	"info": {
+		"_postman_id": "01fa2ecc-bba0-4b20-baa1-749fde2818ec",
+		"name": "LeaveRequest API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39350263"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/leave-requests/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/leave-requests/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"leave-requests",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'http://localhost:8080/api/leave-requests/1' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/leave-requests/2",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"leaveType\": \"string\",\r\n  \"leaveDate\": \"string\",\r\n  \"totalDays\": 0,\r\n  \"reason\": \"string\",\r\n  \"status\": \"string\",\r\n  \"dateOfRequest\": \"2024-12-16\",\r\n  \"booked\": 0,\r\n  \"teamEmail\": \"string\",\r\n  \"color\": \"string\",\r\n  \"leaveTypes\": \"CASUAL_LEAVE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/leave-requests/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"leave-requests",
+						"2"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'PUT' \\\r\n  'http://localhost:8080/api/leave-requests/2' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"id\": 0,\r\n  \"leaveType\": \"string\",\r\n  \"leaveDate\": \"string\",\r\n  \"totalDays\": 0,\r\n  \"reason\": \"string\",\r\n  \"status\": \"string\",\r\n  \"dateOfRequest\": \"2024-12-16\",\r\n  \"booked\": 0,\r\n  \"teamEmail\": \"string\",\r\n  \"color\": \"string\",\r\n  \"leaveTypes\": \"CASUAL_LEAVE\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/leave-requests/leavetype",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/leave-requests/leavetype",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"leave-requests",
+						"leavetype"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'http://localhost:8080/api/leave-requests/leavetype' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/leave-requests",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"leaveType\": \"string\",\r\n  \"leaveDate\": \"string\",\r\n  \"totalDays\": 0,\r\n  \"reason\": \"string\",\r\n  \"status\": \"string\",\r\n  \"dateOfRequest\": \"2024-12-16\",\r\n  \"booked\": 0,\r\n  \"teamEmail\": \"string\",\r\n  \"color\": \"string\",\r\n  \"leaveTypes\": \"CASUAL_LEAVE\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/leave-requests",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"leave-requests"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\r\n  'http://localhost:8080/api/leave-requests' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"id\": 0,\r\n  \"leaveType\": \"string\",\r\n  \"leaveDate\": \"string\",\r\n  \"totalDays\": 0,\r\n  \"reason\": \"string\",\r\n  \"status\": \"string\",\r\n  \"dateOfRequest\": \"2024-12-16\",\r\n  \"booked\": 0,\r\n  \"teamEmail\": \"string\",\r\n  \"color\": \"string\",\r\n  \"leaveTypes\": \"CASUAL_LEAVE\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/leave-requests",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/leave-requests",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"leave-requests"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'http://localhost:8080/api/leave-requests' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/leave-requests/2",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/leave-requests/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"leave-requests",
+						"2"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'DELETE' \\\r\n  'http://localhost:8080/api/leave-requests/2' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		}
+	]
+}

@@ -1,0 +1,171 @@
+{
+	"info": {
+		"_postman_id": "7bb009eb-3cc5-4716-b362-a01f1d8f8160",
+		"name": "Employee API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39350263"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/employees/4",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/employees/4",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"employees",
+						"4"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'http://localhost:8080/api/employees/4' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/employees/1",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"employeeId\": 0,\r\n  \"employeeName\": \"string\",\r\n  \"details\": \"string\",\r\n  \"role\": \"string\",\r\n  \"profile\": \"string\",\r\n  \"memberId\": \"string\",\r\n  \"membername\": \"string\",\r\n  \"activeStatus\": true,\r\n  \"memberCount\": \"string\",\r\n  \"totalCount\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/employees/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"employees",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'PUT' \\\r\n  'http://localhost:8080/api/employees/1' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"employeeId\": 0,\r\n  \"employeeName\": \"string\",\r\n  \"details\": \"string\",\r\n  \"role\": \"string\",\r\n  \"profile\": \"string\",\r\n  \"memberId\": \"string\",\r\n  \"membername\": \"string\",\r\n  \"activeStatus\": true,\r\n  \"memberCount\": \"string\",\r\n  \"totalCount\": \"string\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/employees/10",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/employees/10",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"employees",
+						"10"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'DELETE' \\\r\n  'http://localhost:8080/api/employees/10' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/employees/add",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"employeeId\": 0,\r\n  \"employeeName\": \"string\",\r\n  \"details\": \"string\",\r\n  \"role\": \"string\",\r\n  \"profile\": \"string\",\r\n  \"memberId\": \"string\",\r\n  \"membername\": \"string\",\r\n  \"activeStatus\": true,\r\n  \"memberCount\": \"string\",\r\n  \"totalCount\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/employees/add",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"employees",
+						"add"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\r\n  'http://localhost:8080/api/employees/add' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"employeeId\": 0,\r\n  \"employeeName\": \"string\",\r\n  \"details\": \"string\",\r\n  \"role\": \"string\",\r\n  \"profile\": \"string\",\r\n  \"memberId\": \"string\",\r\n  \"membername\": \"string\",\r\n  \"activeStatus\": true,\r\n  \"memberCount\": \"string\",\r\n  \"totalCount\": \"string\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/employees/get",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/employees/get",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"employees",
+						"get"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'http://localhost:8080/api/employees/get' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		}
+	]
+}

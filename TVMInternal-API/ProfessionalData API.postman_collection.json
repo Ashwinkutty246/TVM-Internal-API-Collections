@@ -1,0 +1,169 @@
+{
+	"info": {
+		"_postman_id": "d5f4ca6f-ef93-4ef0-8a2d-a484ac403faa",
+		"name": "ProfessionalData API",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39350263"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8080/api/professionaldata",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"companyName\": \"string\",\r\n  \"durationFrom\": \"string\",\r\n  \"durationTo\": \"string\",\r\n  \"empPreference\": \"string\",\r\n  \"role\": \"string\",\r\n  \"type\": \"string\",\r\n  \"achievements\": \"string\",\r\n  \"physical\": \"string\",\r\n  \"arrest\": \"string\",\r\n  \"employment\": \"string\",\r\n  \"surgical\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/professionaldata",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"professionaldata"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'POST' \\\r\n  'http://localhost:8080/api/professionaldata' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"id\": 0,\r\n  \"companyName\": \"string\",\r\n  \"durationFrom\": \"string\",\r\n  \"durationTo\": \"string\",\r\n  \"empPreference\": \"string\",\r\n  \"role\": \"string\",\r\n  \"type\": \"string\",\r\n  \"achievements\": \"string\",\r\n  \"physical\": \"string\",\r\n  \"arrest\": \"string\",\r\n  \"employment\": \"string\",\r\n  \"surgical\": \"string\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/professionaldata",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/professionaldata",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"professionaldata"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'http://localhost:8080/api/professionaldata' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/professionaldata/5",
+			"request": {
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/professionaldata/5",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"professionaldata",
+						"5"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'DELETE' \\\r\n  'http://localhost:8080/api/professionaldata/5' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/professionaldata/2",
+			"request": {
+				"method": "PUT",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					},
+					{
+						"key": "Content-Type",
+						"value": "application/json"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n  \"id\": 0,\r\n  \"companyName\": \"string\",\r\n  \"durationFrom\": \"string\",\r\n  \"durationTo\": \"string\",\r\n  \"empPreference\": \"string\",\r\n  \"role\": \"string\",\r\n  \"type\": \"string\",\r\n  \"achievements\": \"string\",\r\n  \"physical\": \"string\",\r\n  \"arrest\": \"string\",\r\n  \"employment\": \"string\",\r\n  \"surgical\": \"string\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8080/api/professionaldata/2",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"professionaldata",
+						"2"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'PUT' \\\r\n  'http://localhost:8080/api/professionaldata/2' \\\r\n  -H 'accept: */*' \\\r\n  -H 'Content-Type: application/json' \\\r\n  -d '{\r\n  \"id\": 0,\r\n  \"companyName\": \"string\",\r\n  \"durationFrom\": \"string\",\r\n  \"durationTo\": \"string\",\r\n  \"empPreference\": \"string\",\r\n  \"role\": \"string\",\r\n  \"type\": \"string\",\r\n  \"achievements\": \"string\",\r\n  \"physical\": \"string\",\r\n  \"arrest\": \"string\",\r\n  \"employment\": \"string\",\r\n  \"surgical\": \"string\"\r\n}'"
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8080/api/professionaldata/1",
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "accept",
+						"value": "*/*"
+					}
+				],
+				"url": {
+					"raw": "http://localhost:8080/api/professionaldata/1",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8080",
+					"path": [
+						"api",
+						"professionaldata",
+						"1"
+					]
+				},
+				"description": "Generated from cURL: curl -X 'GET' \\\r\n  'http://localhost:8080/api/professionaldata/1' \\\r\n  -H 'accept: */*'"
+			},
+			"response": []
+		}
+	]
+}
